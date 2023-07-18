@@ -1,0 +1,55 @@
+Unlike other languages in JS we have truthy and falsy values.
+
+So inside the if or any contional - we write acontition this condtion truns to be a bool value, this can be true and false.
+
+
+if("Hello"){
+    console.log("Hello")
+}else{
+    console.log("No Hello")
+}
+
+
+There are 6 falsy values and others are true.
+
+!falsy - 
+false
+0
+"" - empty string,
+null
+undefine
+NaN
+
+
+
+Other are truthy
+
+
+
+Let's see some logical examples - 
+
+So the code runs from left to right top to bottom.
+
+console.log("True" && 1 && "System" && 999)
+
+o/p = 999
+
+so check 1st - Its truthy goes to second to check
+and check that one, if all the statements are true then it will returns the last one
+
+console.log("True" && 0 && "System" && 999)
+o/p - 0
+If one false exist then it stop and return that one
+
+
+
+
+
+console.log("True" || 1 || "System" || 999)
+o/p = "True"
+
+so check 1st - Its truthy yes, return true
+
+console.log("" || 0 || null || undefine)
+o/p - undefine
+check all false then return last

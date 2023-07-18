@@ -1,0 +1,34 @@
+Javascript is dynamic datatype it means we don't have to specify the datatype of the variable.
+
+Statically type language like c c++ java we have to declear the datatype fo the variable.
+
+Javascript python are dynamic in which we can assign multiple data type value
+
+Number is no other than that.
+
+Javascript implicetly identify it wether it is a number or float.
+
+
+let a = 10
+let a = 10.2232
+
+
+Boolean - True or false.
+True - yes, correct 1
+False - no, incorrect 0
+
+
+
+null - represent nothing - means this field is nothing - intentionally
+
+undefine - A variable in which value is not been assigned is undefine
+
+
+difference - undefine - A variable is decleared but not assigned value.
+null is assigned value.
+
+
+
+type of null is object - It is a bug that JS team never figure out
+
+

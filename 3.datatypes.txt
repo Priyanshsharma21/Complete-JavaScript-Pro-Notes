@@ -1,0 +1,77 @@
+Primitive and Non primitive data types.
+
+1. Primitive - This are the datatypes which holds the value, not the reference and they are immutable.
+(meaning they cannot be modified once created.)
+
+- Number: represents numeric values (e.g., 10, 3.14).
+
+- String: represents sequences of characters (e.g., "Hello, World!").
+
+- Boolean: represents true or false values.
+
+- Null: represents the intentional absence of any object value.
+
+- Undefined: represents the absence of a defined value.
+
+- Symbol (introduced in ES6): represents unique, immutable values used as property keys.
+
+
+
+
+
+
+Non-Primitive Data Types:
+
+Non-primitive data types are mutable, meaning they can be modified after creation.
+
+Examples of non-primitive data types include:
+Object: represents a collection of key-value pairs (e.g., { name: "John", age: 25 }).
+
+Array: represents an ordered list of values (e.g., [1, 2, 3]).
+
+Function: represents a reusable block of code.
+
+Date: represents a specific point in time.
+
+
+
+
+
+
+
+Shallow copy- 
+
+When we assign any non primitive datatype to a variabe so it's refrence is copied and when we make changes to that non primitive data type then the orignal is also affected. 
+
+We make it using spread operator or Object.assign()
+
+const obj = {
+    name : "Priyansh Sharma",
+    age : 20
+}
+
+const copyObj = obj
+
+copyObj.name = "Shreyansh"
+
+Original also changed
+
+
+
+Deep Copy:
+
+- Deep copy creates a completely independent copy of an object or array, including all nested objects and arrays.
+
+- Changes made to the new copy will not affect the original object, and vice versa.
+
+- Deep copy is commonly achieved using libraries like Lodash or through recursive functions.
+
+we can use lodash or JSON.parse and steingify.
+
+const originalObject = { name: 'John', age: 25 };
+const newObject = JSON.parse(JSON.stringify(originalObject));
+
+newObject.age = 30;
+
+console.log(originalObject); // Output: { name: 'John', age: 25 }
+console.log(newObject);      // Output: { name: 'John', age: 30 }

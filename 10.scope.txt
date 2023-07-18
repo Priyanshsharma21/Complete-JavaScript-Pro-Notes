@@ -1,0 +1,30 @@
+Scope shows the availablity of variables.
+
+
+Three Types - 
+1. Global
+2. Local
+3. Block
+
+Variables inside the functions are functional scope.
+Variables declear outside any function or block are global
+variables declear inside a block are block scope like function, ifelse,loops
+
+Global - 
+This are declear outside and can be access by any function or any block.
+
+Too many global can cause problem like memory issues cause run in bg.
+
+Any block can change it.
+
+
+Local- function scope.
+so the variable decler inside the function can be accessnly in the function and inner function . 
+
+Inner can access outer but outer cannot access inner variables
+
+
+
+Block - Variables present in bliock like - function, ifelse, loops.
+
+But var - this is bot the case, it will be functional scope.

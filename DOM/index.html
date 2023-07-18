@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./dom.js"></script>
+    <style>
+        .lis{
+            background: black;
+            color: white;
+        }
+        .active{
+            background: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">
+            Button Testing
+        </button>
+
+        <ul>
+            <li class="lis" onclick="handleClick(this)">Hello</li>
+            <li class="lis" onclick="handleClick(this)">About</li>
+            <li class="lis" onclick="handleClick(this)">Contact</li>
+            <li class="lis" onclick="handleClick(this)">Work</li>
+        </ul>
+    </div>
+</body>
+</html>

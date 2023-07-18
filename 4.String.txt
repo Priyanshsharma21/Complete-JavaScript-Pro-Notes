@@ -1,0 +1,8 @@
+String is a data type which is used to represent Text.
+It comes under "" quotes.
+
+Single Quotes - ''
+double Quotes - ""
+backtick Quotes - `${dynamic values}`
+
+we can use typeof to get type of datatype

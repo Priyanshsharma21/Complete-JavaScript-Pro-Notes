@@ -1,0 +1,66 @@
+//! DOM
+Dom(document object model) is JS standard to share document or websites over the internet.
+It allow us to modify the HTML.
+It allow JS to understand and modify the websites
+
+HTML DOM is a tree of nested elements tht we define while desgning the page
+
+When res coes from server it contain HTML, CSS ad JS
+HTLM - DOM
+CSS - CSSDOM
+and JS download from Network layer in form of packats and your HTML and CSS is manipulated with it.
+
+
+
+! Ways to select HTML elements
+
+1. getElementById() - returns that HTML tag
+2. getElementByTagName() - returns HTML collections - array of objects.
+3. getElementByClassName() - returns element or if multiple then collection.
+4. querySelector("pass class id or tag")
+5. querySelectorAll("pass class")
+
+
+
+
+
+
+
+
+
+! Element Properties
+In html some of the properties are same for all the elements and some of them are unique to a element or tag.
+
+Like video has - play, pause, volume.
+Img has - src, alt.
+But all of them cal have class, id etc
+
+
+using element.classList - we will get all the classes of it
+element.innerHTML = gives inner HTML of it
+
+
+
+
+
+
+
+
+! create and remove node and elements
+
+const heading1 = document.createElement('h1')
+*element 
+
+const body = document.querySelector('body')
+
+body.appendChild(heading1)
+
+heading1.innerHTML = "Hello"
+
+Methods - 
+childNode
+firstChild
+lastChild
+prevSibling
+nextSibling
+parentNode

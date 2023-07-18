@@ -1,0 +1,7 @@
+When we need ordered collection of data we use array.
+Array is linear DS in which data stored in continuous manner and we can use index to access them.
+
+
+we can have data of different type also like . 
+
+

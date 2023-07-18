@@ -1,0 +1,54 @@
+A block of code which is designed to perform a task
+
+
+
+//! Named function
+function add(number){
+    return number * number
+
+    //! access to this keyword
+}
+
+const res = add(10)
+console.log(res)
+
+
+
+//! anynomous function - function expression
+
+const hello = function(params){
+
+}
+
+hello()
+
+
+
+//! arrow - 
+To write function expressions we use arrow function
+
+
+const hello = ()=>{
+    //! 99% we will use this
+}
+
+
+
+
+
+
+
+
+Every function in JS return undefine
+
+Param - variable use inside the function.
+
+Args - pass to a function while calling
+
+we can pass default params like this - 
+
+const info = (name, age=0)=>{
+    console.log(`Hi, ${name} its ${age}`)
+}
+
+info("priyansh")

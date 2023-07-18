@@ -1,0 +1,3 @@
+In order to start the JS - Use Chrome, VS code, intsall necessary extentions.
+Now make  index.js file and connect it with our script tag, now open the instect window and see the changes in it live.
+

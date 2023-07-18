@@ -1,0 +1,22 @@
+A container store data in key value pair.
+
+Non premitive.
+
+const person = {
+    name : "Priyansh",
+    age : 21
+}
+
+parson.name = "Shreyansh"
+
+object can contain different datatypes.
+
+Array - also a non primituve datatyle.
+its also a object
+
+const numbers = [1,2,3,4,5,6,7]
+
+const date = new Date()
+
+console.log(date)
+its also a object

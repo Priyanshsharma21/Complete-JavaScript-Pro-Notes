@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../zBackend/BackToBasics/Notes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "zfrontend"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../White-Paper-Site-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "zfrontend"
+	}
+}

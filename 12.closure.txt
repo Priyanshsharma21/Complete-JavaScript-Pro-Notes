@@ -1,0 +1,35 @@
+As long as the function execution completes the function is deleted and popped out of call stack.
+
+Code execute - Execution context created- pushed in call stack - Memory Allocation, code execution - see function call - local execution context created - pushed in call stack - same thing happens there - once completed - funcion popped out of call stack and destroyed.
+
+
+Closure - When function done execution - they deleted - But when we have inner function it have access to outer scope too and even if the outer destroyed the inner function close the value of outer function inside the inner
+
+
+Closure - 
+
+const outer = ()=>{
+    const outerVar = "Hello";
+
+
+    const inner = ()=>{
+        const innerVar = "Priyansh";
+
+        console.log(outerVar, innerVar);
+    }
+
+    return inner
+}
+
+const innerOp = outer()
+
+console.log(innerOp)
+
+
+When the inner function is defined inside the outer function, it forms a closure. The closure allows the inner function to access variables in its own scope (innerVar) as well as variables in the outer scope (outerVar).
+
+When the outer function is invoked and returns the inner function, the inner function still retains access to the variables and scope of its parent function, even though the parent function has completed execution.
+
+In the console.log(outerVar, innerVar) statement within the inner function, the outerVar and innerVar variables are both accessible because of closure. The inner function can access and log the values of both variables, even though they are defined in different scopes.
+
+When innerOp is logged to the console using console.log(innerOp), it logs the function itself because innerOp holds a reference to the inner function returned by outer.

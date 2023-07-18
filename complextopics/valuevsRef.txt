@@ -1,0 +1,8 @@
+There are primituve and complex types
+
+Primitive - Number, String, Bool, Symbol, Null, Undefine.
+
+Copmples - Object - (Array, Objects)
+
+
+Now when we copy the value then this concept arrise

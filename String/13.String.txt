@@ -1,0 +1,17 @@
+String is a data type which is used to represent Text.
+It comes under "" quotes.
+String are array of char.
+
+
+Single Quotes - ''
+double Quotes - ""
+backtick Quotes - `${dynamic values}`
+we can also extend it in multiple lines
+
+we can use typeof to get type of datatype
+
+
+const intro = 'Hello, I'm Priyansh'
+in this case we can use \
+const intro = 'Hello, I\'m Priyansh'
+it means that it is not includes

@@ -1,0 +1,115 @@
+!Arithmetic Operators:
+
+Used for performing mathematical calculations.
+Examples:
+
+let x = 5 + 2; // Addition
+let y = 10 - 3; // Subtraction
+let z = 4 * 6; // Multiplication
+let a = 12 / 3; // Division
+let b = 10 % 3; // Modulo (Remainder)
+let c = 2 ** 3; // Exponentiation
+
+
+
+!Assignment Operators:
+
+Used to assign values to variables.
+Examples:
+
+let x = 10; // Assignment
+x += 5; // Addition assignment: x = x + 5
+x -= 3; // Subtraction assignment: x = x - 3
+x *= 2; // Multiplication assignment: x = x * 2
+x /= 4; // Division assignment: x = x / 4
+x %= 3; // Modulo assignment: x = x % 3
+
+
+
+!Comparison Operators:
+
+Used to compare values and return a boolean result.
+Examples:
+
+let x = 5;
+let y = 3;
+console.log(x > y); // Greater than
+console.log(x < y); // Less than
+console.log(x >= y); // Greater than or equal to
+console.log(x <= y); // Less than or equal to
+console.log(x === y); // Equal to (strict equality)
+console.log(x !== y); // Not equal to (strict inequality)
+
+
+
+
+!Logical Operators:
+
+Used for logical operations and combining conditions.
+Examples:
+
+let x = 5;
+let y = 3;
+let z = 10;
+
+console.log(x > y && y < z); // Logical AND
+console.log(x > y || y > z); // Logical OR
+console.log(!(x > y)); // Logical NOT
+
+
+
+
+!Bitwise Operators:
+
+Used to perform bitwise operations on binary representations of numbers.
+Examples:
+
+let x = 5; // Binary: 101
+let y = 3; // Binary: 011
+
+console.log(x & y); // Bitwise AND (Binary: 001)
+console.log(x | y); // Bitwise OR (Binary: 111)
+console.log(x ^ y); // Bitwise XOR (Binary: 110)
+console.log(~x); // Bitwise NOT (Binary: 11111111111111111111111111111010)
+console.log(x << 1); // Left shift (Binary: 1010)
+console.log(x >> 1); // Right shift (Binary: 10)
+
+
+
+
+
+
+
+
+loose euality - 
+== It means js interpreter will compare the value not the type
+=== It means js interpreter will compare the value and type both
+
+
+in loose type if we compare two values lie this.
+
+console.log(5 == '5') // true
+console.log(true == 1) // true
+
+the first tings will convert to secind thing here.
+
+5 convert to string 5
+true convert to number 1
+
+
+but when we use strict we will not get evil equal
+
+
+
+
+
+
+
+
+!logical operators - 
+
+&& -- all the conditions true then return true
+
+|| -- Any of this true then return true
+
+! - Not

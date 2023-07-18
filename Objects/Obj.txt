@@ -1,0 +1,6 @@
+Unlike others object stotes multiple things of different type.
+Objests are the building block of JS. 
+
+It's an container which contain data in key value pairs, its a unordered collection of related data in which data present in key value pairs 
+
+

@@ -1,0 +1,64 @@
+Variables are like container which hold some data, each variable can have some type which we call data type.
+
+1. Create a variable - 
+
+let a
+
+2. Store a value -
+
+a = 10
+
+
+3. Retrive and use the value.
+
+let b = a + 10
+
+4. We can change it also.
+
+a = "Piyu"
+
+
+
+
+
+
+Before 2015 - 
+
+Variables are declear with Var keyword.
+
+var a = 10
+
+console.log(a)
+
+
+This are global scope or we can se they are functional scoped. because they can be used inside a function only and outside we cannot.
+
+They are hosted at top with undefine value, so that we can use it before declearing.
+
+We can reassign and redeclare it also.
+
+
+
+After 2016.
+
+we have let and const variables too. 
+
+let and const both are block scope means there scope of using it is inside a block only outside they are not valid.
+Block - if, else, loops, functions.
+
+
+let - we can re assign value to let but can't redeclare it.
+
+const we cannot redeclare and reassign it.
+
+both are hosted but cannot be used before declaring.
+
+Variable declarations using the var keyword are hoisted to the top of their containing scope. However, only the declaration is hoisted, not the initialization.
+
+
+
+
+Rule - Cannot change the const value
+No same identifier name
+Cannot reserved name
+$  _   and small char to start variable
